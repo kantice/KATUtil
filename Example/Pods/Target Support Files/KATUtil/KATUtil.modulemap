@@ -1,0 +1,6 @@
+framework module KATUtil {
+  umbrella header "KATUtil-umbrella.h"
+
+  export *
+  module * { export * }
+}

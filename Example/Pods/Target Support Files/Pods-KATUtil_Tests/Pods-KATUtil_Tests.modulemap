@@ -1,0 +1,6 @@
+framework module Pods_KATUtil_Tests {
+  umbrella header "Pods-KATUtil_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

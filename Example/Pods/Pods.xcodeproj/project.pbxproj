@@ -1,0 +1,1074 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00625F497FF8A2BFE72B0CAB0634BAE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 969FEC25190C0F77848266BBD7339C6A /* Foundation.framework */; };
+		0E2160D76CDEA9845B8E1115CB5E220F /* KATImagePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F3D3A7EAD89AC364FD8F6B41721EDE8 /* KATImagePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FA2DC985A237299E62594E8C8596741 /* KATHttpUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F6EAA24565AE992416DDFEE85B84F6 /* KATHttpUtil.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		12EE70F3C0258AB4BA7854B212379551 /* KATMath.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E4E103EF5AC76035C5C6A1B53F8A395 /* KATMath.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		13546C122B088C617E2E5DC162372536 /* Pods-KATUtil_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 987808BEA2694352B15461D0D9C1E0BC /* Pods-KATUtil_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		16D2A0ED72C4797C470E98946861A97D /* KATTreeMap.m in Sources */ = {isa = PBXBuildFile; fileRef = C394FA284BE9816FFB192815A822D523 /* KATTreeMap.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		176116D8BBDC2BAA5C881D7AA7D73272 /* KATHttpSession.h in Headers */ = {isa = PBXBuildFile; fileRef = A6947857D22A9761AF6D7ED1C7FAEF46 /* KATHttpSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		224283564E240D24247AB44254CBBA21 /* KATHttpTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 85BB94BCD5218AF38FC785CFDDE9046C /* KATHttpTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		247CF0846CAE94BB94BACAD2949D61C6 /* KATUtil-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F5B3DDA4634F90A6EFF3A4144C61D42 /* KATUtil-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		274037CBA4B26E45B59C0CC46E3A01EE /* KATCodeUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 582211F3C3A8CFCF8B95CFA7AC7B95F4 /* KATCodeUtil.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		27538C59AAABB492037C3E14BF0948D0 /* KATTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 487A87D7DA7BEAECE6A806CB6B25D2C4 /* KATTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		275711220BC78E3164FE4FC007AFDCCE /* KATImageUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = F0FC4DAEB64309737E114EF7CB635262 /* KATImageUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2A5CCF47053EE6848E192EB9C733A971 /* KATFloatArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 6059C667C6618B49B27262C396AC4150 /* KATFloatArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E5E27C1D37B2DEDAE43C1EB3B0A7F25 /* KATDateUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 818C82475362914039E14F7424CAC9E9 /* KATDateUtil.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		343072E7D87ED8B4E910FB3016738678 /* KATIntArray.m in Sources */ = {isa = PBXBuildFile; fileRef = F1D957759BE87D87278D5AE38671596C /* KATIntArray.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3AFD76F9B922F94DBFC9A16A2D440DBC /* KATTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 76C1914662B6D35D16F3DAB549FD05AF /* KATTimer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4034DF7003AF4B3C97235FDBA11E6388 /* KATHttpUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = DA09AB24A2C482B53F7BEED6336C4345 /* KATHttpUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47D045621B41755016E8FF69F332CA41 /* KATStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E5A79A41EDA85B050B82D79DBD19169 /* KATStack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49E3A7332D1FD44E9186E0FBD498FAFF /* KATCoreUtil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F7AD614EF36885C8D0EC7294AB2825 /* KATCoreUtil.framework */; };
+		4EEAD23C4CC333152BADEF6B267FA326 /* KATDeviceStateManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CDD1E3489488D30BBFE012F7DFCF0B4A /* KATDeviceStateManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5220F4AD63E11EE39F93DACD4305C589 /* KATAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E73620051AFB152AD1323E7C10F2D514 /* KATAudioPlayer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5740D62B515E596262837DD8766E1FDE /* KATMath.h in Headers */ = {isa = PBXBuildFile; fileRef = A53EEBF4CAECC963EA86B909D19A113A /* KATMath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		578513B7440EFACAB2CDAFE1ECBC706E /* KATKeyChainUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 408F71F2CB546AA5B58D7837A1BB3643 /* KATKeyChainUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		58A5987C4382B5BCD9BCECAF6F54803E /* KATMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = D01B86217CC7D6D9F813F003BA18E159 /* KATMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		59B61AB4338658738D2077EC89F1A638 /* KATKeyChainUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F4CCE91D0F2703488F9C2C87507299 /* KATKeyChainUtil.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		660DCCF94D8DDE816068032773688967 /* Pods-KATUtil_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86ACDD6E9441965B3309A127F4799274 /* Pods-KATUtil_Tests-dummy.m */; };
+		6B495823D76DA56F097ADFA540F663AC /* KATSoundPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 8006DC1EE6872A6558AD81E289309366 /* KATSoundPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D795AE5DB04D926AEC380F1CA4B41EB /* KATImagePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 767890F24B3B089FDB746AA3ACB1AEA3 /* KATImagePicker.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		6E781A0B30D39CDA4C20FAEFE9BA8692 /* KATVideoPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1019D4152B3EB0078FA4704BD55C5723 /* KATVideoPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		778D201FF00F60A32B87CEC121D52CB0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 969FEC25190C0F77848266BBD7339C6A /* Foundation.framework */; };
+		784F15785C2A9BE3D5C2334A2233FD24 /* KATVideoPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F24D659F438A2A9313E4EEFF9AD1390 /* KATVideoPlayer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		785458AE79C8C0880339E948D386CB69 /* KATImageUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C682DDC9089EE3D590499B373A6DA719 /* KATImageUtil.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7CD2DDA7DBDE3F4A2C1AD18419FFDFBF /* KATAudioManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 190CC2E8D409CD9A744C2F8B79F084B3 /* KATAudioManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F251F58B9D76070DE4249594AAE22FE /* KATHashMap.h in Headers */ = {isa = PBXBuildFile; fileRef = DC3D9AB50373436E440015501CB4580A /* KATHashMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		845D8C9A99CF8222ED11635AED765963 /* KATJsonUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C96E0C1BDBD2BCE4E40BBCDC7160BDD /* KATJsonUtil.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		858721CCED9B6C6FC33CDCE8BED8C472 /* KATExpressionUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EFBF88D531BC3D9457B84165444A24B /* KATExpressionUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A0690B9DB827A7E534A3B6D189F4669 /* KATFileUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 442A1073D714F36333B75BA9D9782D17 /* KATFileUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C0FF63FD5F0585DA35247CA7DA48B6C /* KATIntArray.h in Headers */ = {isa = PBXBuildFile; fileRef = D439723018FFD6F3DF61262A57CDA21F /* KATIntArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8D2E38B49B05E7AF1D9CFA6DA7AF379F /* KATCoreUtil-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8A240C7C2CAB782D9D5A9BC94051F1E /* KATCoreUtil-dummy.m */; };
+		8DD23A667E10C0023970B5AD62983EB4 /* KATHttpRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = D44282A67E023537283149E7851AADEB /* KATHttpRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9099245B06735411A1AD7E538E127C6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 969FEC25190C0F77848266BBD7339C6A /* Foundation.framework */; };
+		95009A9BB325CC929858E1DC9B4BDEED /* KATSystemInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 5546FBF76D3ACCAAEDA7E115AE8B70BE /* KATSystemInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95E0F719CE49286B86047139ACF6F4E5 /* KATArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 07D72D545CDE05F1C9EF6B5203BEB4D5 /* KATArray.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		980CD836FA8EC4A283B27FB0283510E1 /* KATAudioUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 3872E35B37A5167BA359BE274C918CF8 /* KATAudioUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CC695D3F7C7EB9D1485006583E83FBB /* KATUtil-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F07E35E001D5E40B3FE6F62092948CB /* KATUtil-dummy.m */; };
+		9D3D581E05A31BD8BD7680A3F3B62FC5 /* KATTreeMap.h in Headers */ = {isa = PBXBuildFile; fileRef = 050C0BFEC0A8A9CE3AB37D1364CE2597 /* KATTreeMap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D703C67EBF3048E08C73BCD3C8A3A55 /* KATDateUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 3004F674304B788F5A13C16C0FA67BF6 /* KATDateUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E2EAF38179CCF9628EA1897F739B18A /* KATStringUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = B84E3F31A47A65383281C607D6469534 /* KATStringUtil.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9F35B6EA11963A899EA3270F6FEAE458 /* KATHashMap.m in Sources */ = {isa = PBXBuildFile; fileRef = FEDAE78124368FA98F5189AD0A75CCA3 /* KATHashMap.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A21717A338601E1E2481E6541B1E155F /* KATQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C281BA92B2D165F445D8D44E483C082 /* KATQueue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A6EE772DB5E07513D967268251C1105B /* KATStringUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 767D928A6E58F3C3284B17FD9E2EB9AB /* KATStringUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A824268993879A7A31126A327734C56B /* KATURIParser.h in Headers */ = {isa = PBXBuildFile; fileRef = F27A520118B3A7ABFDB4AD440A790B9F /* KATURIParser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A983EFE8088D2BFBBF567C6F2B644200 /* KATJsonUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F56A3E11810A36361E5A80D02893871 /* KATJsonUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A9C9D2CD86F7AA9EC1560C1E8B73D3E1 /* KATHttpRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = C267F58AAC9C277E2531C0D54929D39C /* KATHttpRequest.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		ABF6707FD25C53B2A1F70CF9E85698D5 /* KATFileUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D4C1B3EAF618160198A2ACA0B09DE01 /* KATFileUtil.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AEA5066C60F2F67EB2D45830C3D738BB /* KATStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F4480D8729E0C54D9963BBC38B0C146 /* KATStack.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AF5824471E7424F3B49FDA0281B7CE3F /* KATColor.m in Sources */ = {isa = PBXBuildFile; fileRef = CD88D79A0F8715A4D2392833308BABC3 /* KATColor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		B1572C1E1D81BED509E1C737CD432A53 /* KATCodeUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D29F31880A65391DCCE5882C65A13EE /* KATCodeUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B915B3D95E8D49B4CD2C869F32210C47 /* KATHttpTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 7806496A33CCD95E31CF6DC7055C62CA /* KATHttpTask.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		BAA47B5A1EDE4964E4B44595A8F34DE0 /* KATImageFilter.h in Headers */ = {isa = PBXBuildFile; fileRef = B2429E68E042E6B2880A1B5A7AD89ED7 /* KATImageFilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD11AB082BEAC6AB65765A9BBE118FF1 /* KATBranch.h in Headers */ = {isa = PBXBuildFile; fileRef = EAD21DBC73A601E31872290495906B8D /* KATBranch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C3322498BF51B78027E311F74147EB4C /* KATNetworkHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 263A76D5CD0AC92DBDD653E086AC1171 /* KATNetworkHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C89A9A54F20A0E74CB10D9CACF361BA2 /* KATReachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 66255C6C9EC4073F103B9546CA3424AF /* KATReachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C95225EC73ABE8885EB9BF5C8720E37F /* KATExpressionUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 40E2A038D117351CD344978C0836CF40 /* KATExpressionUtil.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		C98099C1BC427E92ACFA2C56C2D896FB /* KATAudioUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A9ED2E4B81F5CEA2B1D768C600976825 /* KATAudioUtil.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D19825D4BF454A119C4F2D0C0B3B437F /* KATImageFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F5A1BDD3B98FB3590251D137DD58A52 /* KATImageFilter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D19B1520C7E3CE99DEC6230A72383A11 /* KATSoundPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0455F13BF8DF4A451E0227818366A8F2 /* KATSoundPlayer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D3047AC410B990093F0F2510995C5B87 /* KATReachability.h in Headers */ = {isa = PBXBuildFile; fileRef = CBAC7FB665414ED51B1877BF4650F649 /* KATReachability.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D5A203A0F72F9508F29D0D199617A4E2 /* KATURIParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9016BABAA65E3463F5D78B29E584986A /* KATURIParser.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D5EA6162038B233B5A50EF39FFF6F4C1 /* KATAppUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 58043AFDC0742270A19922BEEF0490E6 /* KATAppUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7DC57155BC0901F005C090269E18C0B /* KATValueObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = FD365B64C49A9657E1EA138EBFF9CDCE /* KATValueObserver.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D9DFD266E8B438C24E3EBC92165C5516 /* KATArray.h in Headers */ = {isa = PBXBuildFile; fileRef = EE89790305981B6F30976BE0A5703312 /* KATArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC5233DC75A7C99670C2972FC189700C /* KATCoreUtil-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 993648CBA1A81B825434569AD5034FC4 /* KATCoreUtil-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF2BBCCB91165812B273D0C8BC75539E /* KATAppUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = C4F7E10759927BB247F2B1E9C35B404A /* KATAppUtil.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E14F6547859C5F49382286B3EA2C742B /* KATHttpSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 93E6EFE2F12BCE031B22E1C2B0791D92 /* KATHttpSession.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E7D9172B6D3E6DD0740F2D1961809520 /* KATValueObserver.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D85D431CF5D0381F5EF70D220F42F7D /* KATValueObserver.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFB76D29A41B480098239182589F3C2F /* KATQueue.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E290CF72B782024B3220DF17B8695FD /* KATQueue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F00AC676C13DF324452198F97463E9BC /* KATAudioPlayer.h in Headers */ = {isa = PBXBuildFile; fileRef = BF05243CBC66BEA41D181FE537CDD8B8 /* KATAudioPlayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3EF7A8F5ABA5D9F7946CE535E5E09C1 /* KATFloatArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 2305DC28B90D724C8BC799A01F71630A /* KATFloatArray.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F5D60753632C88235AA30DB46B4A82B4 /* KATDeviceStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EC08DD9227650A6EE83AD6C47645BEA2 /* KATDeviceStateManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F73C05BC0AE2F64171B44734C3CA4551 /* KATAudioManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B4ACA91706F585C86C92D44BD744143 /* KATAudioManager.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FACDA5F028762F927D69E83745B18FB6 /* KATBranch.m in Sources */ = {isa = PBXBuildFile; fileRef = 672FE179988DE43A40AE5BBB2848176F /* KATBranch.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FCB610BCC89058B26CB98EF41385DE1B /* KATSystemInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = B8FA7AD1ACBAABCDDE3275F8A393C6A4 /* KATSystemInfo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		FD4757C238772371E77A14D663071720 /* KATColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 31F9B34155DBAFA1E4A6A1A4F2929F57 /* KATColor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90403D8373FBB7A87C1F1A8F12CF6DD7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EE5783141CC24831F845D049D0C71D9;
+			remoteInfo = KATCoreUtil;
+		};
+		A32E47138F5CE280A08CA5689B53E229 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3EE5783141CC24831F845D049D0C71D9;
+			remoteInfo = KATCoreUtil;
+		};
+		E3089AAB5A21FACFC2D6072339375E52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A28B0C818656FC1C4B37A3369A05C2B1;
+			remoteInfo = KATUtil;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0455F13BF8DF4A451E0227818366A8F2 /* KATSoundPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KATSoundPlayer.m; sourceTree = "<group>"; };
+		050C0BFEC0A8A9CE3AB37D1364CE2597 /* KATTreeMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KATTreeMap.h; path = KATCoreUtil/Classes/Struct/KATTreeMap.h; sourceTree = "<group>"; };
+		07D72D545CDE05F1C9EF6B5203BEB4D5 /* KATArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KATArray.m; path = KATCoreUtil/Classes/Struct/KATArray.m; sourceTree = "<group>"; };
+		088133AF9BF70135EBBE51801D237B53 /* Pods-KATUtil_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KATUtil_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		0920F6D0CE3E4990B8D50C5144E601A4 /* Pods-KATUtil_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KATUtil_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0E290CF72B782024B3220DF17B8695FD /* KATQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KATQueue.h; path = KATCoreUtil/Classes/Struct/KATQueue.h; sourceTree = "<group>"; };
+		1019D4152B3EB0078FA4704BD55C5723 /* KATVideoPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KATVideoPlayer.h; sourceTree = "<group>"; };
+		122F584AB7DD5899891C06A335C598A4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		190CC2E8D409CD9A744C2F8B79F084B3 /* KATAudioManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KATAudioManager.h; path = KATUtil/Classes/KATAudioManager.h; sourceTree = "<group>"; };
+		1D9CD6ADF79040FB5377C5333451C2AD /* Pods-KATUtil_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KATUtil_Tests.modulemap"; sourceTree = "<group>"; };
+		2242164664594AFA4D17D9EDF7097B9E /* KATCoreUtil-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KATCoreUtil-prefix.pch"; sourceTree = "<group>"; };
+		2305DC28B90D724C8BC799A01F71630A /* KATFloatArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KATFloatArray.m; path = KATCoreUtil/Classes/Struct/KATFloatArray.m; sourceTree = "<group>"; };
+		263A76D5CD0AC92DBDD653E086AC1171 /* KATNetworkHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KATNetworkHeader.h; sourceTree = "<group>"; };
+		2B60E1BC489AB3FC79D56DFFEDA05415 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F5B3DDA4634F90A6EFF3A4144C61D42 /* KATUtil-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KATUtil-umbrella.h"; sourceTree = "<group>"; };
+		3004F674304B788F5A13C16C0FA67BF6 /* KATDateUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KATDateUtil.h; path = KATCoreUtil/Classes/Uitl/KATDateUtil.h; sourceTree = "<group>"; };
+		31F9B34155DBAFA1E4A6A1A4F2929F57 /* KATColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KATColor.h; path = KATCoreUtil/Classes/Uitl/KATColor.h; sourceTree = "<group>"; };
+		34AA920AC4EF2E79D6A37FAFFCB917E9 /* KATUtil-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KATUtil-prefix.pch"; sourceTree = "<group>"; };
+		3872E35B37A5167BA359BE274C918CF8 /* KATAudioUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KATAudioUtil.h; path = KATUtil/Classes/KATAudioUtil.h; sourceTree = "<group>"; };
+		3B4ACA91706F585C86C92D44BD744143 /* KATAudioManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KATAudioManager.m; path = KATUtil/Classes/KATAudioManager.m; sourceTree = "<group>"; };
+		3F3D3A7EAD89AC364FD8F6B41721EDE8 /* KATImagePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KATImagePicker.h; path = KATUtil/Classes/KATImagePicker.h; sourceTree = "<group>"; };
+		408F71F2CB546AA5B58D7837A1BB3643 /* KATKeyChainUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KATKeyChainUtil.h; path = KATUtil/Classes/KATKeyChainUtil.h; sourceTree = "<group>"; };
+		40E2A038D117351CD344978C0836CF40 /* KATExpressionUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KATExpressionUtil.m; path = KATCoreUtil/Classes/Uitl/KATExpressionUtil.m; sourceTree = "<group>"; };
+		442A1073D714F36333B75BA9D9782D17 /* KATFileUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KATFileUtil.h; path = KATCoreUtil/Classes/Uitl/KATFileUtil.h; sourceTree = "<group>"; };
+		487A87D7DA7BEAECE6A806CB6B25D2C4 /* KATTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KATTimer.h; path = KATCoreUtil/Classes/Uitl/KATTimer.h; sourceTree = "<group>"; };
+		5546FBF76D3ACCAAEDA7E115AE8B70BE /* KATSystemInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KATSystemInfo.h; path = KATCoreUtil/Classes/Uitl/KATSystemInfo.h; sourceTree = "<group>"; };
+		58043AFDC0742270A19922BEEF0490E6 /* KATAppUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KATAppUtil.h; path = KATCoreUtil/Classes/Uitl/KATAppUtil.h; sourceTree = "<group>"; };
+		582211F3C3A8CFCF8B95CFA7AC7B95F4 /* KATCodeUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KATCodeUtil.m; path = KATCoreUtil/Classes/Uitl/KATCodeUtil.m; sourceTree = "<group>"; };
+		5A547F8EB90965D75E63711C357F1740 /* Pods-KATUtil_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KATUtil_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		5EFBF88D531BC3D9457B84165444A24B /* KATExpressionUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KATExpressionUtil.h; path = KATCoreUtil/Classes/Uitl/KATExpressionUtil.h; sourceTree = "<group>"; };
+		6059C667C6618B49B27262C396AC4150 /* KATFloatArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KATFloatArray.h; path = KATCoreUtil/Classes/Struct/KATFloatArray.h; sourceTree = "<group>"; };
+		66255C6C9EC4073F103B9546CA3424AF /* KATReachability.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KATReachability.m; sourceTree = "<group>"; };
+		672FE179988DE43A40AE5BBB2848176F /* KATBranch.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KATBranch.m; path = KATCoreUtil/Classes/Struct/KATBranch.m; sourceTree = "<group>"; };
+		6E4E103EF5AC76035C5C6A1B53F8A395 /* KATMath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KATMath.m; path = KATCoreUtil/Classes/Uitl/KATMath.m; sourceTree = "<group>"; };
+		6E5A79A41EDA85B050B82D79DBD19169 /* KATStack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KATStack.h; path = KATCoreUtil/Classes/Struct/KATStack.h; sourceTree = "<group>"; };
+		6F56A3E11810A36361E5A80D02893871 /* KATJsonUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KATJsonUtil.h; path = KATCoreUtil/Classes/Uitl/KATJsonUtil.h; sourceTree = "<group>"; };
+		6FDBA45CABAA546294C5878B0473D492 /* KATUtil.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KATUtil.modulemap; sourceTree = "<group>"; };
+		767890F24B3B089FDB746AA3ACB1AEA3 /* KATImagePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KATImagePicker.m; path = KATUtil/Classes/KATImagePicker.m; sourceTree = "<group>"; };
+		767D928A6E58F3C3284B17FD9E2EB9AB /* KATStringUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KATStringUtil.h; path = KATUtil/Classes/KATStringUtil.h; sourceTree = "<group>"; };
+		76C1914662B6D35D16F3DAB549FD05AF /* KATTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KATTimer.m; path = KATCoreUtil/Classes/Uitl/KATTimer.m; sourceTree = "<group>"; };
+		7806496A33CCD95E31CF6DC7055C62CA /* KATHttpTask.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KATHttpTask.m; sourceTree = "<group>"; };
+		79F4CCE91D0F2703488F9C2C87507299 /* KATKeyChainUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KATKeyChainUtil.m; path = KATUtil/Classes/KATKeyChainUtil.m; sourceTree = "<group>"; };
+		7C96E0C1BDBD2BCE4E40BBCDC7160BDD /* KATJsonUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KATJsonUtil.m; path = KATCoreUtil/Classes/Uitl/KATJsonUtil.m; sourceTree = "<group>"; };
+		7F4480D8729E0C54D9963BBC38B0C146 /* KATStack.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KATStack.m; path = KATCoreUtil/Classes/Struct/KATStack.m; sourceTree = "<group>"; };
+		7F5A1BDD3B98FB3590251D137DD58A52 /* KATImageFilter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KATImageFilter.m; path = KATUtil/Classes/KATImageFilter.m; sourceTree = "<group>"; };
+		8006DC1EE6872A6558AD81E289309366 /* KATSoundPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KATSoundPlayer.h; sourceTree = "<group>"; };
+		818C82475362914039E14F7424CAC9E9 /* KATDateUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KATDateUtil.m; path = KATCoreUtil/Classes/Uitl/KATDateUtil.m; sourceTree = "<group>"; };
+		83C0294310D1F144093ABA267EC6F89A /* KATCoreUtil.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KATCoreUtil.xcconfig; sourceTree = "<group>"; };
+		85BB94BCD5218AF38FC785CFDDE9046C /* KATHttpTask.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KATHttpTask.h; sourceTree = "<group>"; };
+		86ACDD6E9441965B3309A127F4799274 /* Pods-KATUtil_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KATUtil_Tests-dummy.m"; sourceTree = "<group>"; };
+		8C281BA92B2D165F445D8D44E483C082 /* KATQueue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KATQueue.m; path = KATCoreUtil/Classes/Struct/KATQueue.m; sourceTree = "<group>"; };
+		8D4C1B3EAF618160198A2ACA0B09DE01 /* KATFileUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KATFileUtil.m; path = KATCoreUtil/Classes/Uitl/KATFileUtil.m; sourceTree = "<group>"; };
+		8F07E35E001D5E40B3FE6F62092948CB /* KATUtil-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KATUtil-dummy.m"; sourceTree = "<group>"; };
+		8F24D659F438A2A9313E4EEFF9AD1390 /* KATVideoPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KATVideoPlayer.m; sourceTree = "<group>"; };
+		9016BABAA65E3463F5D78B29E584986A /* KATURIParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KATURIParser.m; path = KATUtil/Classes/KATURIParser.m; sourceTree = "<group>"; };
+		92F6EAA24565AE992416DDFEE85B84F6 /* KATHttpUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KATHttpUtil.m; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93E6EFE2F12BCE031B22E1C2B0791D92 /* KATHttpSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KATHttpSession.m; sourceTree = "<group>"; };
+		969FEC25190C0F77848266BBD7339C6A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		987808BEA2694352B15461D0D9C1E0BC /* Pods-KATUtil_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KATUtil_Tests-umbrella.h"; sourceTree = "<group>"; };
+		993648CBA1A81B825434569AD5034FC4 /* KATCoreUtil-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KATCoreUtil-umbrella.h"; sourceTree = "<group>"; };
+		9D29F31880A65391DCCE5882C65A13EE /* KATCodeUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KATCodeUtil.h; path = KATCoreUtil/Classes/Uitl/KATCodeUtil.h; sourceTree = "<group>"; };
+		9D85D431CF5D0381F5EF70D220F42F7D /* KATValueObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KATValueObserver.h; path = KATUtil/Classes/KATValueObserver.h; sourceTree = "<group>"; };
+		A53EEBF4CAECC963EA86B909D19A113A /* KATMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KATMath.h; path = KATCoreUtil/Classes/Uitl/KATMath.h; sourceTree = "<group>"; };
+		A5F7AD614EF36885C8D0EC7294AB2825 /* KATCoreUtil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KATCoreUtil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A650783285BBA677F03EE72EB2887182 /* KATUtil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KATUtil.framework; path = KATUtil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6947857D22A9761AF6D7ED1C7FAEF46 /* KATHttpSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KATHttpSession.h; sourceTree = "<group>"; };
+		A85749C1CAB1C60662B6C1870F24694B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A9ED2E4B81F5CEA2B1D768C600976825 /* KATAudioUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KATAudioUtil.m; path = KATUtil/Classes/KATAudioUtil.m; sourceTree = "<group>"; };
+		AADF1B48A666FBEC4590EF6A8C34282D /* Pods-KATUtil_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KATUtil_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		AB7CE79634653DB815CF692FA9B49C1E /* KATCoreUtil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KATCoreUtil.framework; path = KATCoreUtil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE58F1EB778772CEEDA9A0BD55BAB4FC /* Pods-KATUtil_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KATUtil_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		B2429E68E042E6B2880A1B5A7AD89ED7 /* KATImageFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KATImageFilter.h; path = KATUtil/Classes/KATImageFilter.h; sourceTree = "<group>"; };
+		B3F5B222E59A0A212770786388969508 /* Pods_KATUtil_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KATUtil_Tests.framework; path = "Pods-KATUtil_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B84E3F31A47A65383281C607D6469534 /* KATStringUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KATStringUtil.m; path = KATUtil/Classes/KATStringUtil.m; sourceTree = "<group>"; };
+		B8FA7AD1ACBAABCDDE3275F8A393C6A4 /* KATSystemInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KATSystemInfo.m; path = KATCoreUtil/Classes/Uitl/KATSystemInfo.m; sourceTree = "<group>"; };
+		BF05243CBC66BEA41D181FE537CDD8B8 /* KATAudioPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KATAudioPlayer.h; sourceTree = "<group>"; };
+		C267F58AAC9C277E2531C0D54929D39C /* KATHttpRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KATHttpRequest.m; sourceTree = "<group>"; };
+		C394FA284BE9816FFB192815A822D523 /* KATTreeMap.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KATTreeMap.m; path = KATCoreUtil/Classes/Struct/KATTreeMap.m; sourceTree = "<group>"; };
+		C4F7E10759927BB247F2B1E9C35B404A /* KATAppUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KATAppUtil.m; path = KATCoreUtil/Classes/Uitl/KATAppUtil.m; sourceTree = "<group>"; };
+		C682DDC9089EE3D590499B373A6DA719 /* KATImageUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KATImageUtil.m; path = KATUtil/Classes/KATImageUtil.m; sourceTree = "<group>"; };
+		C8A240C7C2CAB782D9D5A9BC94051F1E /* KATCoreUtil-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KATCoreUtil-dummy.m"; sourceTree = "<group>"; };
+		C8BDDE99B5FBF56D648DC990C62D19B4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBAC7FB665414ED51B1877BF4650F649 /* KATReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KATReachability.h; sourceTree = "<group>"; };
+		CD88D79A0F8715A4D2392833308BABC3 /* KATColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KATColor.m; path = KATCoreUtil/Classes/Uitl/KATColor.m; sourceTree = "<group>"; };
+		CDD1E3489488D30BBFE012F7DFCF0B4A /* KATDeviceStateManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KATDeviceStateManager.h; path = KATUtil/Classes/KATDeviceStateManager.h; sourceTree = "<group>"; };
+		CE7E2F860A36B380E36D78102E671DD9 /* KATUtil.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = KATUtil.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D01B86217CC7D6D9F813F003BA18E159 /* KATMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KATMacros.h; path = KATCoreUtil/Classes/KATMacros.h; sourceTree = "<group>"; };
+		D038624C2962230C04E3B8DA794EAE8E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D439723018FFD6F3DF61262A57CDA21F /* KATIntArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KATIntArray.h; path = KATCoreUtil/Classes/Struct/KATIntArray.h; sourceTree = "<group>"; };
+		D44282A67E023537283149E7851AADEB /* KATHttpRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KATHttpRequest.h; sourceTree = "<group>"; };
+		DA09AB24A2C482B53F7BEED6336C4345 /* KATHttpUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KATHttpUtil.h; sourceTree = "<group>"; };
+		DC3D9AB50373436E440015501CB4580A /* KATHashMap.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KATHashMap.h; path = KATCoreUtil/Classes/Struct/KATHashMap.h; sourceTree = "<group>"; };
+		E0DCE5792C12520D95C11007132B5F48 /* KATCoreUtil.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KATCoreUtil.modulemap; sourceTree = "<group>"; };
+		E4F9B08E31FF018C133EFF7036548187 /* KATUtil.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KATUtil.xcconfig; sourceTree = "<group>"; };
+		E73620051AFB152AD1323E7C10F2D514 /* KATAudioPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KATAudioPlayer.m; sourceTree = "<group>"; };
+		EAD21DBC73A601E31872290495906B8D /* KATBranch.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KATBranch.h; path = KATCoreUtil/Classes/Struct/KATBranch.h; sourceTree = "<group>"; };
+		EC08DD9227650A6EE83AD6C47645BEA2 /* KATDeviceStateManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KATDeviceStateManager.m; path = KATUtil/Classes/KATDeviceStateManager.m; sourceTree = "<group>"; };
+		EE89790305981B6F30976BE0A5703312 /* KATArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KATArray.h; path = KATCoreUtil/Classes/Struct/KATArray.h; sourceTree = "<group>"; };
+		F0FC4DAEB64309737E114EF7CB635262 /* KATImageUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KATImageUtil.h; path = KATUtil/Classes/KATImageUtil.h; sourceTree = "<group>"; };
+		F1D957759BE87D87278D5AE38671596C /* KATIntArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KATIntArray.m; path = KATCoreUtil/Classes/Struct/KATIntArray.m; sourceTree = "<group>"; };
+		F27A520118B3A7ABFDB4AD440A790B9F /* KATURIParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KATURIParser.h; path = KATUtil/Classes/KATURIParser.h; sourceTree = "<group>"; };
+		FADE6F7A5E76CF48747547498336A7FF /* Pods-KATUtil_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KATUtil_Tests-resources.sh"; sourceTree = "<group>"; };
+		FD365B64C49A9657E1EA138EBFF9CDCE /* KATValueObserver.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KATValueObserver.m; path = KATUtil/Classes/KATValueObserver.m; sourceTree = "<group>"; };
+		FEDAE78124368FA98F5189AD0A75CCA3 /* KATHashMap.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KATHashMap.m; path = KATCoreUtil/Classes/Struct/KATHashMap.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C4D70123599E676D30ECDAD87025BFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9099245B06735411A1AD7E538E127C6D /* Foundation.framework in Frameworks */,
+				49E3A7332D1FD44E9186E0FBD498FAFF /* KATCoreUtil.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		953470A1C13757A6A324577BDB3F1D44 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00625F497FF8A2BFE72B0CAB0634BAE6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5BBD5A95156B87940589981CF964BC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				778D201FF00F60A32B87CEC121D52CB0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A086CDF0A6AEB1A3FA298822E1E54BD /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				D44282A67E023537283149E7851AADEB /* KATHttpRequest.h */,
+				C267F58AAC9C277E2531C0D54929D39C /* KATHttpRequest.m */,
+				A6947857D22A9761AF6D7ED1C7FAEF46 /* KATHttpSession.h */,
+				93E6EFE2F12BCE031B22E1C2B0791D92 /* KATHttpSession.m */,
+				85BB94BCD5218AF38FC785CFDDE9046C /* KATHttpTask.h */,
+				7806496A33CCD95E31CF6DC7055C62CA /* KATHttpTask.m */,
+				DA09AB24A2C482B53F7BEED6336C4345 /* KATHttpUtil.h */,
+				92F6EAA24565AE992416DDFEE85B84F6 /* KATHttpUtil.m */,
+				263A76D5CD0AC92DBDD653E086AC1171 /* KATNetworkHeader.h */,
+				CBAC7FB665414ED51B1877BF4650F649 /* KATReachability.h */,
+				66255C6C9EC4073F103B9546CA3424AF /* KATReachability.m */,
+			);
+			name = Network;
+			path = KATUtil/Classes/Network;
+			sourceTree = "<group>";
+		};
+		0DF27FC1C67A73C0EAEA7001524775BD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A85749C1CAB1C60662B6C1870F24694B /* Info.plist */,
+				6FDBA45CABAA546294C5878B0473D492 /* KATUtil.modulemap */,
+				E4F9B08E31FF018C133EFF7036548187 /* KATUtil.xcconfig */,
+				8F07E35E001D5E40B3FE6F62092948CB /* KATUtil-dummy.m */,
+				34AA920AC4EF2E79D6A37FAFFCB917E9 /* KATUtil-prefix.pch */,
+				2F5B3DDA4634F90A6EFF3A4144C61D42 /* KATUtil-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KATUtil";
+			sourceTree = "<group>";
+		};
+		2F0FA237C1208CBA80E351AA609439A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5F7AD614EF36885C8D0EC7294AB2825 /* KATCoreUtil.framework */,
+				E37492BA2016DCC6D3FDE616D9859F27 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2FDCC0E0ACFD4D39B778C4DBF66F9A6F /* KATCoreUtil */ = {
+			isa = PBXGroup;
+			children = (
+				58043AFDC0742270A19922BEEF0490E6 /* KATAppUtil.h */,
+				C4F7E10759927BB247F2B1E9C35B404A /* KATAppUtil.m */,
+				EE89790305981B6F30976BE0A5703312 /* KATArray.h */,
+				07D72D545CDE05F1C9EF6B5203BEB4D5 /* KATArray.m */,
+				EAD21DBC73A601E31872290495906B8D /* KATBranch.h */,
+				672FE179988DE43A40AE5BBB2848176F /* KATBranch.m */,
+				9D29F31880A65391DCCE5882C65A13EE /* KATCodeUtil.h */,
+				582211F3C3A8CFCF8B95CFA7AC7B95F4 /* KATCodeUtil.m */,
+				31F9B34155DBAFA1E4A6A1A4F2929F57 /* KATColor.h */,
+				CD88D79A0F8715A4D2392833308BABC3 /* KATColor.m */,
+				3004F674304B788F5A13C16C0FA67BF6 /* KATDateUtil.h */,
+				818C82475362914039E14F7424CAC9E9 /* KATDateUtil.m */,
+				5EFBF88D531BC3D9457B84165444A24B /* KATExpressionUtil.h */,
+				40E2A038D117351CD344978C0836CF40 /* KATExpressionUtil.m */,
+				442A1073D714F36333B75BA9D9782D17 /* KATFileUtil.h */,
+				8D4C1B3EAF618160198A2ACA0B09DE01 /* KATFileUtil.m */,
+				6059C667C6618B49B27262C396AC4150 /* KATFloatArray.h */,
+				2305DC28B90D724C8BC799A01F71630A /* KATFloatArray.m */,
+				DC3D9AB50373436E440015501CB4580A /* KATHashMap.h */,
+				FEDAE78124368FA98F5189AD0A75CCA3 /* KATHashMap.m */,
+				D439723018FFD6F3DF61262A57CDA21F /* KATIntArray.h */,
+				F1D957759BE87D87278D5AE38671596C /* KATIntArray.m */,
+				6F56A3E11810A36361E5A80D02893871 /* KATJsonUtil.h */,
+				7C96E0C1BDBD2BCE4E40BBCDC7160BDD /* KATJsonUtil.m */,
+				D01B86217CC7D6D9F813F003BA18E159 /* KATMacros.h */,
+				A53EEBF4CAECC963EA86B909D19A113A /* KATMath.h */,
+				6E4E103EF5AC76035C5C6A1B53F8A395 /* KATMath.m */,
+				0E290CF72B782024B3220DF17B8695FD /* KATQueue.h */,
+				8C281BA92B2D165F445D8D44E483C082 /* KATQueue.m */,
+				6E5A79A41EDA85B050B82D79DBD19169 /* KATStack.h */,
+				7F4480D8729E0C54D9963BBC38B0C146 /* KATStack.m */,
+				5546FBF76D3ACCAAEDA7E115AE8B70BE /* KATSystemInfo.h */,
+				B8FA7AD1ACBAABCDDE3275F8A393C6A4 /* KATSystemInfo.m */,
+				487A87D7DA7BEAECE6A806CB6B25D2C4 /* KATTimer.h */,
+				76C1914662B6D35D16F3DAB549FD05AF /* KATTimer.m */,
+				050C0BFEC0A8A9CE3AB37D1364CE2597 /* KATTreeMap.h */,
+				C394FA284BE9816FFB192815A822D523 /* KATTreeMap.m */,
+				B6421BB5DB9BF39C12237A94B90DE93D /* Support Files */,
+			);
+			name = KATCoreUtil;
+			path = KATCoreUtil;
+			sourceTree = "<group>";
+		};
+		5C67D9B6724B8253201970C82C039ECF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2FDCC0E0ACFD4D39B778C4DBF66F9A6F /* KATCoreUtil */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6FCAE5C9D6221761A7628C01C09E1E7B /* Player */ = {
+			isa = PBXGroup;
+			children = (
+				BF05243CBC66BEA41D181FE537CDD8B8 /* KATAudioPlayer.h */,
+				E73620051AFB152AD1323E7C10F2D514 /* KATAudioPlayer.m */,
+				8006DC1EE6872A6558AD81E289309366 /* KATSoundPlayer.h */,
+				0455F13BF8DF4A451E0227818366A8F2 /* KATSoundPlayer.m */,
+				1019D4152B3EB0078FA4704BD55C5723 /* KATVideoPlayer.h */,
+				8F24D659F438A2A9313E4EEFF9AD1390 /* KATVideoPlayer.m */,
+			);
+			name = Player;
+			path = KATUtil/Classes/Player;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				D51BAFD4EBBF4672646C12358A99744E /* Development Pods */,
+				2F0FA237C1208CBA80E351AA609439A3 /* Frameworks */,
+				5C67D9B6724B8253201970C82C039ECF /* Pods */,
+				CADA457E42B2D121B23903F6F6982390 /* Products */,
+				9A8DC8E4E62CA4088B31E834B7E85828 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9A8DC8E4E62CA4088B31E834B7E85828 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D3306F145231EE9E746038D9C5DF8975 /* Pods-KATUtil_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B6421BB5DB9BF39C12237A94B90DE93D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B60E1BC489AB3FC79D56DFFEDA05415 /* Info.plist */,
+				E0DCE5792C12520D95C11007132B5F48 /* KATCoreUtil.modulemap */,
+				83C0294310D1F144093ABA267EC6F89A /* KATCoreUtil.xcconfig */,
+				C8A240C7C2CAB782D9D5A9BC94051F1E /* KATCoreUtil-dummy.m */,
+				2242164664594AFA4D17D9EDF7097B9E /* KATCoreUtil-prefix.pch */,
+				993648CBA1A81B825434569AD5034FC4 /* KATCoreUtil-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/KATCoreUtil";
+			sourceTree = "<group>";
+		};
+		CADA457E42B2D121B23903F6F6982390 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB7CE79634653DB815CF692FA9B49C1E /* KATCoreUtil.framework */,
+				A650783285BBA677F03EE72EB2887182 /* KATUtil.framework */,
+				B3F5B222E59A0A212770786388969508 /* Pods_KATUtil_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFB6A9F91ECC84281BDB1248469AB45C /* KATUtil */ = {
+			isa = PBXGroup;
+			children = (
+				190CC2E8D409CD9A744C2F8B79F084B3 /* KATAudioManager.h */,
+				3B4ACA91706F585C86C92D44BD744143 /* KATAudioManager.m */,
+				3872E35B37A5167BA359BE274C918CF8 /* KATAudioUtil.h */,
+				A9ED2E4B81F5CEA2B1D768C600976825 /* KATAudioUtil.m */,
+				CDD1E3489488D30BBFE012F7DFCF0B4A /* KATDeviceStateManager.h */,
+				EC08DD9227650A6EE83AD6C47645BEA2 /* KATDeviceStateManager.m */,
+				B2429E68E042E6B2880A1B5A7AD89ED7 /* KATImageFilter.h */,
+				7F5A1BDD3B98FB3590251D137DD58A52 /* KATImageFilter.m */,
+				3F3D3A7EAD89AC364FD8F6B41721EDE8 /* KATImagePicker.h */,
+				767890F24B3B089FDB746AA3ACB1AEA3 /* KATImagePicker.m */,
+				F0FC4DAEB64309737E114EF7CB635262 /* KATImageUtil.h */,
+				C682DDC9089EE3D590499B373A6DA719 /* KATImageUtil.m */,
+				408F71F2CB546AA5B58D7837A1BB3643 /* KATKeyChainUtil.h */,
+				79F4CCE91D0F2703488F9C2C87507299 /* KATKeyChainUtil.m */,
+				767D928A6E58F3C3284B17FD9E2EB9AB /* KATStringUtil.h */,
+				B84E3F31A47A65383281C607D6469534 /* KATStringUtil.m */,
+				F27A520118B3A7ABFDB4AD440A790B9F /* KATURIParser.h */,
+				9016BABAA65E3463F5D78B29E584986A /* KATURIParser.m */,
+				9D85D431CF5D0381F5EF70D220F42F7D /* KATValueObserver.h */,
+				FD365B64C49A9657E1EA138EBFF9CDCE /* KATValueObserver.m */,
+				0A086CDF0A6AEB1A3FA298822E1E54BD /* Network */,
+				6FCAE5C9D6221761A7628C01C09E1E7B /* Player */,
+				DC07DC1FBAB15F03F3ECBC9E966A7D27 /* Pod */,
+				0DF27FC1C67A73C0EAEA7001524775BD /* Support Files */,
+			);
+			name = KATUtil;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D3306F145231EE9E746038D9C5DF8975 /* Pods-KATUtil_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C8BDDE99B5FBF56D648DC990C62D19B4 /* Info.plist */,
+				1D9CD6ADF79040FB5377C5333451C2AD /* Pods-KATUtil_Tests.modulemap */,
+				0920F6D0CE3E4990B8D50C5144E601A4 /* Pods-KATUtil_Tests-acknowledgements.markdown */,
+				AADF1B48A666FBEC4590EF6A8C34282D /* Pods-KATUtil_Tests-acknowledgements.plist */,
+				86ACDD6E9441965B3309A127F4799274 /* Pods-KATUtil_Tests-dummy.m */,
+				5A547F8EB90965D75E63711C357F1740 /* Pods-KATUtil_Tests-frameworks.sh */,
+				FADE6F7A5E76CF48747547498336A7FF /* Pods-KATUtil_Tests-resources.sh */,
+				987808BEA2694352B15461D0D9C1E0BC /* Pods-KATUtil_Tests-umbrella.h */,
+				088133AF9BF70135EBBE51801D237B53 /* Pods-KATUtil_Tests.debug.xcconfig */,
+				AE58F1EB778772CEEDA9A0BD55BAB4FC /* Pods-KATUtil_Tests.release.xcconfig */,
+			);
+			name = "Pods-KATUtil_Tests";
+			path = "Target Support Files/Pods-KATUtil_Tests";
+			sourceTree = "<group>";
+		};
+		D51BAFD4EBBF4672646C12358A99744E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CFB6A9F91ECC84281BDB1248469AB45C /* KATUtil */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		DC07DC1FBAB15F03F3ECBC9E966A7D27 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				CE7E2F860A36B380E36D78102E671DD9 /* KATUtil.podspec */,
+				D038624C2962230C04E3B8DA794EAE8E /* LICENSE */,
+				122F584AB7DD5899891C06A335C598A4 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		E37492BA2016DCC6D3FDE616D9859F27 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				969FEC25190C0F77848266BBD7339C6A /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		415B9BFEB3D55FDDA526BD215B23ECDA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5EA6162038B233B5A50EF39FFF6F4C1 /* KATAppUtil.h in Headers */,
+				D9DFD266E8B438C24E3EBC92165C5516 /* KATArray.h in Headers */,
+				BD11AB082BEAC6AB65765A9BBE118FF1 /* KATBranch.h in Headers */,
+				B1572C1E1D81BED509E1C737CD432A53 /* KATCodeUtil.h in Headers */,
+				FD4757C238772371E77A14D663071720 /* KATColor.h in Headers */,
+				DC5233DC75A7C99670C2972FC189700C /* KATCoreUtil-umbrella.h in Headers */,
+				9D703C67EBF3048E08C73BCD3C8A3A55 /* KATDateUtil.h in Headers */,
+				858721CCED9B6C6FC33CDCE8BED8C472 /* KATExpressionUtil.h in Headers */,
+				8A0690B9DB827A7E534A3B6D189F4669 /* KATFileUtil.h in Headers */,
+				2A5CCF47053EE6848E192EB9C733A971 /* KATFloatArray.h in Headers */,
+				7F251F58B9D76070DE4249594AAE22FE /* KATHashMap.h in Headers */,
+				8C0FF63FD5F0585DA35247CA7DA48B6C /* KATIntArray.h in Headers */,
+				A983EFE8088D2BFBBF567C6F2B644200 /* KATJsonUtil.h in Headers */,
+				58A5987C4382B5BCD9BCECAF6F54803E /* KATMacros.h in Headers */,
+				5740D62B515E596262837DD8766E1FDE /* KATMath.h in Headers */,
+				EFB76D29A41B480098239182589F3C2F /* KATQueue.h in Headers */,
+				47D045621B41755016E8FF69F332CA41 /* KATStack.h in Headers */,
+				95009A9BB325CC929858E1DC9B4BDEED /* KATSystemInfo.h in Headers */,
+				27538C59AAABB492037C3E14BF0948D0 /* KATTimer.h in Headers */,
+				9D3D581E05A31BD8BD7680A3F3B62FC5 /* KATTreeMap.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71BED21BE82CBA45975DEB0213D1E4CB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CD2DDA7DBDE3F4A2C1AD18419FFDFBF /* KATAudioManager.h in Headers */,
+				F00AC676C13DF324452198F97463E9BC /* KATAudioPlayer.h in Headers */,
+				980CD836FA8EC4A283B27FB0283510E1 /* KATAudioUtil.h in Headers */,
+				4EEAD23C4CC333152BADEF6B267FA326 /* KATDeviceStateManager.h in Headers */,
+				8DD23A667E10C0023970B5AD62983EB4 /* KATHttpRequest.h in Headers */,
+				176116D8BBDC2BAA5C881D7AA7D73272 /* KATHttpSession.h in Headers */,
+				224283564E240D24247AB44254CBBA21 /* KATHttpTask.h in Headers */,
+				4034DF7003AF4B3C97235FDBA11E6388 /* KATHttpUtil.h in Headers */,
+				BAA47B5A1EDE4964E4B44595A8F34DE0 /* KATImageFilter.h in Headers */,
+				0E2160D76CDEA9845B8E1115CB5E220F /* KATImagePicker.h in Headers */,
+				275711220BC78E3164FE4FC007AFDCCE /* KATImageUtil.h in Headers */,
+				578513B7440EFACAB2CDAFE1ECBC706E /* KATKeyChainUtil.h in Headers */,
+				C3322498BF51B78027E311F74147EB4C /* KATNetworkHeader.h in Headers */,
+				D3047AC410B990093F0F2510995C5B87 /* KATReachability.h in Headers */,
+				6B495823D76DA56F097ADFA540F663AC /* KATSoundPlayer.h in Headers */,
+				A6EE772DB5E07513D967268251C1105B /* KATStringUtil.h in Headers */,
+				A824268993879A7A31126A327734C56B /* KATURIParser.h in Headers */,
+				247CF0846CAE94BB94BACAD2949D61C6 /* KATUtil-umbrella.h in Headers */,
+				E7D9172B6D3E6DD0740F2D1961809520 /* KATValueObserver.h in Headers */,
+				6E781A0B30D39CDA4C20FAEFE9BA8692 /* KATVideoPlayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF9914A33B7F11DCFFE7679BD7FD7639 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13546C122B088C617E2E5DC162372536 /* Pods-KATUtil_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3EE5783141CC24831F845D049D0C71D9 /* KATCoreUtil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 660D86019F77D015801990AE9FB06F42 /* Build configuration list for PBXNativeTarget "KATCoreUtil" */;
+			buildPhases = (
+				D429ED5AACAF9709D2F763894F88D4BA /* Sources */,
+				953470A1C13757A6A324577BDB3F1D44 /* Frameworks */,
+				415B9BFEB3D55FDDA526BD215B23ECDA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KATCoreUtil;
+			productName = KATCoreUtil;
+			productReference = AB7CE79634653DB815CF692FA9B49C1E /* KATCoreUtil.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		50D6A59CF275CB3D9D2A9730272EEA89 /* Pods-KATUtil_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B28E933EC0291437DBAE5123F145BED6 /* Build configuration list for PBXNativeTarget "Pods-KATUtil_Tests" */;
+			buildPhases = (
+				FA36B996767D60A1CCE9DEDBB182610C /* Sources */,
+				C5BBD5A95156B87940589981CF964BC5 /* Frameworks */,
+				FF9914A33B7F11DCFFE7679BD7FD7639 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E24E85675CBDE9FFE5E717624C23B5D6 /* PBXTargetDependency */,
+				3C3094D2067FE485FC2A8C0066FBB78F /* PBXTargetDependency */,
+			);
+			name = "Pods-KATUtil_Tests";
+			productName = "Pods-KATUtil_Tests";
+			productReference = B3F5B222E59A0A212770786388969508 /* Pods_KATUtil_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A28B0C818656FC1C4B37A3369A05C2B1 /* KATUtil */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC87EE3EEBE37148E98B0804847C55D8 /* Build configuration list for PBXNativeTarget "KATUtil" */;
+			buildPhases = (
+				06EDBB643EFF013B639E452C23827380 /* Sources */,
+				6C4D70123599E676D30ECDAD87025BFB /* Frameworks */,
+				71BED21BE82CBA45975DEB0213D1E4CB /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADBA71A8D242E0B928F451892773DEBD /* PBXTargetDependency */,
+			);
+			name = KATUtil;
+			productName = KATUtil;
+			productReference = A650783285BBA677F03EE72EB2887182 /* KATUtil.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CADA457E42B2D121B23903F6F6982390 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3EE5783141CC24831F845D049D0C71D9 /* KATCoreUtil */,
+				A28B0C818656FC1C4B37A3369A05C2B1 /* KATUtil */,
+				50D6A59CF275CB3D9D2A9730272EEA89 /* Pods-KATUtil_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06EDBB643EFF013B639E452C23827380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F73C05BC0AE2F64171B44734C3CA4551 /* KATAudioManager.m in Sources */,
+				5220F4AD63E11EE39F93DACD4305C589 /* KATAudioPlayer.m in Sources */,
+				C98099C1BC427E92ACFA2C56C2D896FB /* KATAudioUtil.m in Sources */,
+				F5D60753632C88235AA30DB46B4A82B4 /* KATDeviceStateManager.m in Sources */,
+				A9C9D2CD86F7AA9EC1560C1E8B73D3E1 /* KATHttpRequest.m in Sources */,
+				E14F6547859C5F49382286B3EA2C742B /* KATHttpSession.m in Sources */,
+				B915B3D95E8D49B4CD2C869F32210C47 /* KATHttpTask.m in Sources */,
+				0FA2DC985A237299E62594E8C8596741 /* KATHttpUtil.m in Sources */,
+				D19825D4BF454A119C4F2D0C0B3B437F /* KATImageFilter.m in Sources */,
+				6D795AE5DB04D926AEC380F1CA4B41EB /* KATImagePicker.m in Sources */,
+				785458AE79C8C0880339E948D386CB69 /* KATImageUtil.m in Sources */,
+				59B61AB4338658738D2077EC89F1A638 /* KATKeyChainUtil.m in Sources */,
+				C89A9A54F20A0E74CB10D9CACF361BA2 /* KATReachability.m in Sources */,
+				D19B1520C7E3CE99DEC6230A72383A11 /* KATSoundPlayer.m in Sources */,
+				9E2EAF38179CCF9628EA1897F739B18A /* KATStringUtil.m in Sources */,
+				D5A203A0F72F9508F29D0D199617A4E2 /* KATURIParser.m in Sources */,
+				9CC695D3F7C7EB9D1485006583E83FBB /* KATUtil-dummy.m in Sources */,
+				D7DC57155BC0901F005C090269E18C0B /* KATValueObserver.m in Sources */,
+				784F15785C2A9BE3D5C2334A2233FD24 /* KATVideoPlayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D429ED5AACAF9709D2F763894F88D4BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF2BBCCB91165812B273D0C8BC75539E /* KATAppUtil.m in Sources */,
+				95E0F719CE49286B86047139ACF6F4E5 /* KATArray.m in Sources */,
+				FACDA5F028762F927D69E83745B18FB6 /* KATBranch.m in Sources */,
+				274037CBA4B26E45B59C0CC46E3A01EE /* KATCodeUtil.m in Sources */,
+				AF5824471E7424F3B49FDA0281B7CE3F /* KATColor.m in Sources */,
+				8D2E38B49B05E7AF1D9CFA6DA7AF379F /* KATCoreUtil-dummy.m in Sources */,
+				2E5E27C1D37B2DEDAE43C1EB3B0A7F25 /* KATDateUtil.m in Sources */,
+				C95225EC73ABE8885EB9BF5C8720E37F /* KATExpressionUtil.m in Sources */,
+				ABF6707FD25C53B2A1F70CF9E85698D5 /* KATFileUtil.m in Sources */,
+				F3EF7A8F5ABA5D9F7946CE535E5E09C1 /* KATFloatArray.m in Sources */,
+				9F35B6EA11963A899EA3270F6FEAE458 /* KATHashMap.m in Sources */,
+				343072E7D87ED8B4E910FB3016738678 /* KATIntArray.m in Sources */,
+				845D8C9A99CF8222ED11635AED765963 /* KATJsonUtil.m in Sources */,
+				12EE70F3C0258AB4BA7854B212379551 /* KATMath.m in Sources */,
+				A21717A338601E1E2481E6541B1E155F /* KATQueue.m in Sources */,
+				AEA5066C60F2F67EB2D45830C3D738BB /* KATStack.m in Sources */,
+				FCB610BCC89058B26CB98EF41385DE1B /* KATSystemInfo.m in Sources */,
+				3AFD76F9B922F94DBFC9A16A2D440DBC /* KATTimer.m in Sources */,
+				16D2A0ED72C4797C470E98946861A97D /* KATTreeMap.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA36B996767D60A1CCE9DEDBB182610C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				660DCCF94D8DDE816068032773688967 /* Pods-KATUtil_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C3094D2067FE485FC2A8C0066FBB78F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KATUtil;
+			target = A28B0C818656FC1C4B37A3369A05C2B1 /* KATUtil */;
+			targetProxy = E3089AAB5A21FACFC2D6072339375E52 /* PBXContainerItemProxy */;
+		};
+		ADBA71A8D242E0B928F451892773DEBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KATCoreUtil;
+			target = 3EE5783141CC24831F845D049D0C71D9 /* KATCoreUtil */;
+			targetProxy = 90403D8373FBB7A87C1F1A8F12CF6DD7 /* PBXContainerItemProxy */;
+		};
+		E24E85675CBDE9FFE5E717624C23B5D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KATCoreUtil;
+			target = 3EE5783141CC24831F845D049D0C71D9 /* KATCoreUtil */;
+			targetProxy = A32E47138F5CE280A08CA5689B53E229 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F728877FBFF518E7A9B1E1FD5E29286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 088133AF9BF70135EBBE51801D237B53 /* Pods-KATUtil_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KATUtil_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KATUtil_Tests/Pods-KATUtil_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		34960DD1F89CFF432B705A885F21F9B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4F9B08E31FF018C133EFF7036548187 /* KATUtil.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KATUtil/KATUtil-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KATUtil/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KATUtil/KATUtil.modulemap";
+				PRODUCT_MODULE_NAME = KATUtil;
+				PRODUCT_NAME = KATUtil;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7310A8A86D58D05352D235EA5626B075 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83C0294310D1F144093ABA267EC6F89A /* KATCoreUtil.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KATCoreUtil/KATCoreUtil-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KATCoreUtil/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KATCoreUtil/KATCoreUtil.modulemap";
+				PRODUCT_MODULE_NAME = KATCoreUtil;
+				PRODUCT_NAME = KATCoreUtil;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B8C67A22849F3DEDEB886A582B1C5D91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4F9B08E31FF018C133EFF7036548187 /* KATUtil.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KATUtil/KATUtil-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KATUtil/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KATUtil/KATUtil.modulemap";
+				PRODUCT_MODULE_NAME = KATUtil;
+				PRODUCT_NAME = KATUtil;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E48869D1B94D0648F33E5A3DBF2BD995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE58F1EB778772CEEDA9A0BD55BAB4FC /* Pods-KATUtil_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KATUtil_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KATUtil_Tests/Pods-KATUtil_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E9C9F66256F727CD818461FC14C811E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83C0294310D1F144093ABA267EC6F89A /* KATCoreUtil.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KATCoreUtil/KATCoreUtil-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KATCoreUtil/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KATCoreUtil/KATCoreUtil.modulemap";
+				PRODUCT_MODULE_NAME = KATCoreUtil;
+				PRODUCT_NAME = KATCoreUtil;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		660D86019F77D015801990AE9FB06F42 /* Build configuration list for PBXNativeTarget "KATCoreUtil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9C9F66256F727CD818461FC14C811E9 /* Debug */,
+				7310A8A86D58D05352D235EA5626B075 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B28E933EC0291437DBAE5123F145BED6 /* Build configuration list for PBXNativeTarget "Pods-KATUtil_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F728877FBFF518E7A9B1E1FD5E29286 /* Debug */,
+				E48869D1B94D0648F33E5A3DBF2BD995 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC87EE3EEBE37148E98B0804847C55D8 /* Build configuration list for PBXNativeTarget "KATUtil" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34960DD1F89CFF432B705A885F21F9B8 /* Debug */,
+				B8C67A22849F3DEDEB886A582B1C5D91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

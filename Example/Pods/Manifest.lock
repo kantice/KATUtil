@@ -1,0 +1,23 @@
+PODS:
+  - KATCoreUtil (1.0.0)
+  - KATUtil (1.0.0):
+    - KATCoreUtil
+
+DEPENDENCIES:
+  - KATUtil (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - KATCoreUtil
+
+EXTERNAL SOURCES:
+  KATUtil:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KATCoreUtil: 33e8075d50d5cc96dcb8a5a982c8ec0907d3693e
+  KATUtil: 877df3d87cfb600f0470bef8aa4f99da34067404
+
+PODFILE CHECKSUM: 5ec08d19e27454c3e970a869f00a308bb6f05380
+
+COCOAPODS: 1.5.3

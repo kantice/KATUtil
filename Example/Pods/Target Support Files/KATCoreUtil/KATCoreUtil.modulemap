@@ -1,0 +1,6 @@
+framework module KATCoreUtil {
+  umbrella header "KATCoreUtil-umbrella.h"
+
+  export *
+  module * { export * }
+}
