@@ -1,0 +1,6 @@
+use_frameworks!
+target 'KATUtil_Tests' do
+  pod 'KATUtil', :path => '../'
+  
+  
+end
