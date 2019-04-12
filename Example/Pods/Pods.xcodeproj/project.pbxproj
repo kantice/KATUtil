@@ -125,7 +125,7 @@
 		0920F6D0CE3E4990B8D50C5144E601A4 /* Pods-KATUtil_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KATUtil_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0E290CF72B782024B3220DF17B8695FD /* KATQueue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KATQueue.h; path = KATCoreUtil/Classes/Struct/KATQueue.h; sourceTree = "<group>"; };
 		1019D4152B3EB0078FA4704BD55C5723 /* KATVideoPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KATVideoPlayer.h; sourceTree = "<group>"; };
-		122F584AB7DD5899891C06A335C598A4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		122F584AB7DD5899891C06A335C598A4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		190CC2E8D409CD9A744C2F8B79F084B3 /* KATAudioManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KATAudioManager.h; path = KATUtil/Classes/KATAudioManager.h; sourceTree = "<group>"; };
 		1D9CD6ADF79040FB5377C5333451C2AD /* Pods-KATUtil_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KATUtil_Tests.modulemap"; sourceTree = "<group>"; };
 		2242164664594AFA4D17D9EDF7097B9E /* KATCoreUtil-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KATCoreUtil-prefix.pch"; sourceTree = "<group>"; };
@@ -174,7 +174,7 @@
 		8F24D659F438A2A9313E4EEFF9AD1390 /* KATVideoPlayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KATVideoPlayer.m; sourceTree = "<group>"; };
 		9016BABAA65E3463F5D78B29E584986A /* KATURIParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KATURIParser.m; path = KATUtil/Classes/KATURIParser.m; sourceTree = "<group>"; };
 		92F6EAA24565AE992416DDFEE85B84F6 /* KATHttpUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KATHttpUtil.m; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93E6EFE2F12BCE031B22E1C2B0791D92 /* KATHttpSession.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = KATHttpSession.m; sourceTree = "<group>"; };
 		969FEC25190C0F77848266BBD7339C6A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		987808BEA2694352B15461D0D9C1E0BC /* Pods-KATUtil_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KATUtil_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -183,15 +183,15 @@
 		9D85D431CF5D0381F5EF70D220F42F7D /* KATValueObserver.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KATValueObserver.h; path = KATUtil/Classes/KATValueObserver.h; sourceTree = "<group>"; };
 		A53EEBF4CAECC963EA86B909D19A113A /* KATMath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KATMath.h; path = KATCoreUtil/Classes/Uitl/KATMath.h; sourceTree = "<group>"; };
 		A5F7AD614EF36885C8D0EC7294AB2825 /* KATCoreUtil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KATCoreUtil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A650783285BBA677F03EE72EB2887182 /* KATUtil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KATUtil.framework; path = KATUtil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A650783285BBA677F03EE72EB2887182 /* KATUtil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KATUtil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6947857D22A9761AF6D7ED1C7FAEF46 /* KATHttpSession.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KATHttpSession.h; sourceTree = "<group>"; };
 		A85749C1CAB1C60662B6C1870F24694B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A9ED2E4B81F5CEA2B1D768C600976825 /* KATAudioUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KATAudioUtil.m; path = KATUtil/Classes/KATAudioUtil.m; sourceTree = "<group>"; };
 		AADF1B48A666FBEC4590EF6A8C34282D /* Pods-KATUtil_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KATUtil_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		AB7CE79634653DB815CF692FA9B49C1E /* KATCoreUtil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KATCoreUtil.framework; path = KATCoreUtil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB7CE79634653DB815CF692FA9B49C1E /* KATCoreUtil.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KATCoreUtil.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE58F1EB778772CEEDA9A0BD55BAB4FC /* Pods-KATUtil_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KATUtil_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B2429E68E042E6B2880A1B5A7AD89ED7 /* KATImageFilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KATImageFilter.h; path = KATUtil/Classes/KATImageFilter.h; sourceTree = "<group>"; };
-		B3F5B222E59A0A212770786388969508 /* Pods_KATUtil_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_KATUtil_Tests.framework; path = "Pods-KATUtil_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3F5B222E59A0A212770786388969508 /* Pods_KATUtil_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KATUtil_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B84E3F31A47A65383281C607D6469534 /* KATStringUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KATStringUtil.m; path = KATUtil/Classes/KATStringUtil.m; sourceTree = "<group>"; };
 		B8FA7AD1ACBAABCDDE3275F8A393C6A4 /* KATSystemInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KATSystemInfo.m; path = KATCoreUtil/Classes/Uitl/KATSystemInfo.m; sourceTree = "<group>"; };
 		BF05243CBC66BEA41D181FE537CDD8B8 /* KATAudioPlayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KATAudioPlayer.h; sourceTree = "<group>"; };
@@ -204,9 +204,9 @@
 		CBAC7FB665414ED51B1877BF4650F649 /* KATReachability.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KATReachability.h; sourceTree = "<group>"; };
 		CD88D79A0F8715A4D2392833308BABC3 /* KATColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = KATColor.m; path = KATCoreUtil/Classes/Uitl/KATColor.m; sourceTree = "<group>"; };
 		CDD1E3489488D30BBFE012F7DFCF0B4A /* KATDeviceStateManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KATDeviceStateManager.h; path = KATUtil/Classes/KATDeviceStateManager.h; sourceTree = "<group>"; };
-		CE7E2F860A36B380E36D78102E671DD9 /* KATUtil.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = KATUtil.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CE7E2F860A36B380E36D78102E671DD9 /* KATUtil.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = KATUtil.podspec; sourceTree = "<group>"; };
 		D01B86217CC7D6D9F813F003BA18E159 /* KATMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KATMacros.h; path = KATCoreUtil/Classes/KATMacros.h; sourceTree = "<group>"; };
-		D038624C2962230C04E3B8DA794EAE8E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		D038624C2962230C04E3B8DA794EAE8E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D439723018FFD6F3DF61262A57CDA21F /* KATIntArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = KATIntArray.h; path = KATCoreUtil/Classes/Struct/KATIntArray.h; sourceTree = "<group>"; };
 		D44282A67E023537283149E7851AADEB /* KATHttpRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KATHttpRequest.h; sourceTree = "<group>"; };
 		DA09AB24A2C482B53F7BEED6336C4345 /* KATHttpUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = KATHttpUtil.h; sourceTree = "<group>"; };
@@ -338,7 +338,6 @@
 				C394FA284BE9816FFB192815A822D523 /* KATTreeMap.m */,
 				B6421BB5DB9BF39C12237A94B90DE93D /* Support Files */,
 			);
-			name = KATCoreUtil;
 			path = KATCoreUtil;
 			sourceTree = "<group>";
 		};
@@ -786,6 +785,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 83C0294310D1F144093ABA267EC6F89A /* KATCoreUtil.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -817,6 +817,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -880,6 +881,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -1003,6 +1005,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 83C0294310D1F144093ABA267EC6F89A /* KATCoreUtil.xcconfig */;
 			buildSettings = {
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
